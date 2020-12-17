@@ -1,0 +1,75 @@
+#typo{
+    /* margin: 0;
+    margin-top: 24px; */
+    position:relative;
+    top: 24px;
+    display: flex;
+    font-size: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:40px 20px;
+    background-color: yellow;
+    height: 570px;
+    color: white;
+    background-image: url('../Assets/landing-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1300px;
+ 
+}
+#appBar{
+    background-color: pink;
+    color: brown;
+    font-weight: bold;
+    box-shadow: 2px 0 3px 3px grey;
+    /* border: 1px solid black; */
+}
+#MenuIcon{
+   
+    color: black;
+}
+#MenuIcon:hover{
+   
+    color: blue;
+
+}
+#iconButton:hover{
+    background-color: rgb(218, 169, 169) ;
+    /* padding: 45px auto; */
+
+}
+#listItem{
+    border-bottom: 1px solid black;
+    /* padding: 45px auto; */
+    /* border-right: 3px solid black; */
+    
+}
+#listItem:hover{
+    color: white;
+    background-color: blue;
+    transition: ease-in;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    
+}
+#listItemicon{
+    color: black;
+    /* padding: 0; */
+}
+#listItemicon:hover{
+    /* color: blue; */
+    color: white;
+    background-color: blue;
+    /* transition: ease-in;
+    transition-delay: 0.1ms;
+    transition-duration: 0.1ms; */
+    
+}
+#backbutton{
+    color: black;
+}
+#backbutton:hover{
+background-color: rgb(218, 169, 169);
+}
