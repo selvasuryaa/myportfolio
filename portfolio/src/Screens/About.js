@@ -4,15 +4,18 @@ import MediaCard from '../Components/Cards'
 import PaletteIcon from '@material-ui/icons/Palette';
 import CodeIcon from '@material-ui/icons/Code';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
+import LinearProgress from '@material-ui/core/LinearProgress';
 
 
 import "../CSS/About.css";
+import LinearBuffer from '../Components/Progress';
 
 const About = () => {
     return (
         <div id="about">
             
                 <h1 id="title">ABOUT ME</h1>
+                <LinearBuffer />
                 <img src={profile} alt="profilepic" id="aboutPic" />
             
            
@@ -37,9 +40,11 @@ const About = () => {
                     }
                     </pre>
                 </div>
+                <h1 id="title">SERVICES</h1>
+                <LinearBuffer/>
             
             <div id='cardHolder'>
-                <MediaCard icon={<PaletteIcon style={{ fontSize: "57px", color: "blue",margin:'5px 7px' }} />} title="Web Design" content="Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
+                <MediaCard icon={<PaletteIcon style={{ fontSize: "57px", color: "blue",margin:'5px 7px' }} />} title="Web Design" content="selvass are a widespread group of squamate reptiles, with over 6,000 species, ranging
             across all continents except Antarctica"/>
                 <MediaCard icon={<CodeIcon style={{ fontSize: "57px", color: "blue",margin:'5px 7px' }} />} title="Web Development" content="Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
             across all continents except Antarctica"/>

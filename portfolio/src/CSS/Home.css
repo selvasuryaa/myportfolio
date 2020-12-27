@@ -10,10 +10,10 @@
     align-items: center;
     text-align: center;
     /* background-image: url('../Assets/landing-bg.jpg'); */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 1300px;
+    background-size: 1300px; */
 background-color: rgb(20, 17, 17);
 
 }

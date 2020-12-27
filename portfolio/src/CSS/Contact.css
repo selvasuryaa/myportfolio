@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Sarala&display=swap');
+
+#contact{
+    background-color: rgb(17, 17, 17);
+height: 810px;
+}
+#title{
+    font-family: "kurale";
+    text-shadow: 1.5px 1.5px rgb(9, 9, 243);
+    /* padding: 10px 20px; */
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+#cardHolder{
+    padding-left: 40px;
+    margin: 20px;    
+    display: block;
+}
