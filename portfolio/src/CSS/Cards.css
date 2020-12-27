@@ -1,0 +1,17 @@
+#card:hover{
+    box-shadow: 0 0 8px 6px rgb(81, 91, 236);
+}
+
+#card{
+    margin: 20px;
+}
+#cardtitle{
+    font-family: 'kurale';
+    color: black;
+}
+#cardcontent{
+    font-family: 'Sarala', sans-serif;
+    color: black;
+    
+
+}

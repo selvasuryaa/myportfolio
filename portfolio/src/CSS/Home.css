@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Sarala&display=swap');
+
+#homeScreen{
+    height: 570px;
+    /* margin-top: 130px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-image: url('../Assets/landing-bg.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1300px;
+background-color: rgb(20, 17, 17);
+
+}
+#para{
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Sarala', sans-serif;
+}
+#myname{
+    color: blue;
+}
+#iconContainer{
+    padding: 30px;
+    font-size: 34px;
+}
+#twitter{
+    margin:0 44px;
+}
+#name{
+    font-size: 44px;
+    font-family: 'Kurale', serif;
+    margin-bottom: 10px;
+    color: white;
+
+}

@@ -157,7 +157,7 @@ export default function MiniDrawer() {
           >
             <MenuIcon id='MenuIcon'/>
           </IconButton>
-          <Typography variant="h6" noWrap>
+          <Typography id='appbarTitle' variant="h6" noWrap>
             My Portfolio
           </Typography>
         </Toolbar>
@@ -194,7 +194,7 @@ export default function MiniDrawer() {
       </Drawer >
       <main className={classes.content}>
 					<div className={classes.toolbar} />
-					<Typography>{/* <StickyHeadTable/> */}</Typography>
+					{/* <Typography><StickyHeadTable/></Typography> */}
 					<Route exact path="/" component={Home} />
 					<Route exact path="/home" component={Home} />
 					<Route exact path="/about" component={About} />
