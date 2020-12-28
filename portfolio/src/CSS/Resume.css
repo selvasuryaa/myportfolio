@@ -1,0 +1,40 @@
+#resume{
+    background-color: black;
+    height: auto;
+    color: white;
+}
+#skillContainer{
+    padding: 30px 60px;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+    color: white;
+    /* background-color: rgb(231, 161, 29); */
+}
+/* #skillContainer #skill1,#skill2,#skill3,#skill4,#skill5,#skill6 {
+    background-color: turquoise;
+    margin-bottom: 30px ;
+    margin-left: 60px;
+    width: 80%;
+
+    /* margin: 10px; */
+/* }
+#skill1{
+    background-color: turquoise;
+}  */
+#skillContainer  {
+    /* background-color: turquoise; */
+    margin-bottom: 15px ;
+    margin-left: 60px;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 75px 75px 75px 75px 75px 75px;
+    grid-template-columns: auto;
+
+}
+#skill1 > div,#skill2  > div,#skill3 > div,#skill4 > div,#skill5 > div,#skill6 > div{
+    display: inline-block;
+    
+}

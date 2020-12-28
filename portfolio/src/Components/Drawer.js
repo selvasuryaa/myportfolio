@@ -29,11 +29,7 @@ import About from '../Screens/About';
 import Resume from '../Screens/Resume';
 import Contact from '../Screens/Contact';
 
-
 const history = createBrowserHistory();
-
-
-
 
 const drawerWidth = 240;
 
@@ -68,18 +64,18 @@ const useStyles = makeStyles((theme) => ({
     whiteSpace: 'nowrap',
     // borderWidth:2,
     // borderColor:'brown' 
-    backgroundColor:'violet'
+    // backgroundColor:'violet'
   },
   drawerOpen: {
     width: drawerWidth,
-    backgroundColor: 'pink',
+    backgroundColor: 'white',
     transition: theme.transitions.create('width', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.enteringScreen,
     }),
   },
   drawerClose: {
-    backgroundColor: 'pink',
+    backgroundColor: 'white',
     borderRight:'black',
     borderWidth:1,
     borderStyle:'solid',
