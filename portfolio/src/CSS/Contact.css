@@ -3,17 +3,26 @@
 #contact{
     background-color: rgb(17, 17, 17);
 height: 810px;
+background-image: url('../Assets/background.jpg'); 
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: 1300px;
 }
 #title{
     font-family: "kurale";
-    text-shadow: 1.5px 1.5px rgb(9, 9, 243);
+    /* text-shadow: 1.5px 1.5px rgb(9, 9, 243); */
     /* padding: 10px 20px; */
+    color: black;
 }
 h1{
     color: rgb(255, 255, 255);
 }
 #cardHolder{
-    padding-left: 40px;
-    margin: 20px;    
+    /* padding-left: 40px; */
+    /* margin: 20px;     */
     display: block;
 }
+/* .card2{
+   margin-left: 380px;
+} */

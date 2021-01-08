@@ -8,10 +8,14 @@
 #cardtitle{
     font-family: 'kurale';
     color: black;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
 #cardcontent{
     font-family: 'Sarala', sans-serif;
     color: black;
+    line-height: 25px;
+    text-indent: 25px;
     
 
 }

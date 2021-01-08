@@ -27,8 +27,9 @@
 
 }
 #appBar{
-    background-color: rgb(9, 223, 238);
-    color: brown;
+    /* background-color: rgb(9, 223, 238); */
+    background-color: #0077ff;
+    color: black;
     font-weight: bold;
     box-shadow: 2px 0 3px 3px grey;
     /* border: 1px solid black; */
@@ -37,13 +38,15 @@
    
     color: black;
 }
-#MenuIcon:hover{
+/* #MenuIcon:hover{
    
-    color: blue;
+    color: bla;
 
-}
+} */
 #iconButton:hover{
-    background-color: rgb(218, 169, 169) ;
+    /* background-color: rgb(218, 169, 169) ; */
+    background-color: white ;
+
     /* padding: 45px auto; */
 
 }
@@ -55,7 +58,7 @@
 }
 #listItem:hover{
     color: white;
-    background-color: blue;
+    background-color: #0077ff;
     /* transition: ease-in;
     transition-delay: 0s;
     transition-duration: 0.3s; */
@@ -68,7 +71,7 @@
 #listItemicon:hover{
     /* color: blue; */
     color: white;
-    background-color: blue;
+    background-color: #0077ff;
     /* transition: ease-in;
     transition-delay: 0.1ms;
     transition-duration: 0.1ms; */
@@ -78,5 +81,5 @@
     color: black;
 }
 #backbutton:hover{
-background-color: rgb(218, 169, 169);
+background-color: #0077ff;
 }

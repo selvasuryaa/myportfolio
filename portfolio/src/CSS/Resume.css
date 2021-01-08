@@ -1,7 +1,13 @@
 #resume{
     background-color: black;
-    height: auto;
+    height: 1900px;
     color: white;
+    background-image: url('../Assets/background.jpg'); 
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: 1300px;
+/* margin: 0; */
 }
 #skillContainer{
     padding: 30px 60px;
@@ -10,7 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start; */
-    color: white;
+    color: black;
     /* background-color: rgb(231, 161, 29); */
 }
 /* #skillContainer #skill1,#skill2,#skill3,#skill4,#skill5,#skill6 {
@@ -38,3 +44,40 @@
     display: inline-block;
     
 }
+#category1{
+    background-color: brown;
+    font-family: 'kurale';
+    display: flex;
+    /* padding: 10px; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: rgb(8, 8, 8);
+    padding-left: 50px;
+    /* height: 220px; */
+}
+/* #category1 span{
+    color: black;
+    /* display: inline; */
+    /* font-weight: bolder; */
+/* }  */
+
+
+#category2{
+    background-color: rgb(68, 159, 212);
+    font-family: 'kurale';
+    display: flex;
+    color: black;
+    padding-left: 50px;
+    /* height: 220px; */
+
+}
+#experience{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    background-color: rgb(54, 17, 122);
+    padding: 10px;
+}
+
