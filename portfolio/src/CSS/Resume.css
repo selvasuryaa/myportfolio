@@ -7,37 +7,20 @@ background-repeat: no-repeat;
 background-position: center;
 background-attachment: fixed;
 background-size: 1300px;
-/* margin: 0; */
 }
-#skillContainer{
-    padding: 30px 60px;
 
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; */
-    color: black;
-    /* background-color: rgb(231, 161, 29); */
-}
-/* #skillContainer #skill1,#skill2,#skill3,#skill4,#skill5,#skill6 {
-    background-color: turquoise;
-    margin-bottom: 30px ;
-    margin-left: 60px;
-    width: 80%;
 
-    /* margin: 10px; */
-/* }
-#skill1{
-    background-color: turquoise;
-}  */
 #skillContainer  {
-    /* background-color: turquoise; */
     margin-bottom: 15px ;
     margin-left: 60px;
     width: 80%;
     display: grid;
     grid-template-rows: 75px 75px 75px 75px 75px 75px;
     grid-template-columns: auto;
+    padding: 30px 60px;
+
+   
+    color: black;
 
 }
 #skill1 > div,#skill2  > div,#skill3 > div,#skill4 > div,#skill5 > div,#skill6 > div{
@@ -45,25 +28,23 @@ background-size: 1300px;
     
 }
 #category1{
-    background-color: brown;
+    /* background-color: brown; */
     font-family: 'kurale';
     display: flex;
     /* padding: 10px; */
     /* align-items: center; */
     /* justify-content: center; */
-    color: rgb(8, 8, 8);
+    color: black;
     padding-left: 50px;
+    margin-top: 20px;
     /* height: 220px; */
 }
-/* #category1 span{
-    color: black;
-    /* display: inline; */
-    /* font-weight: bolder; */
-/* }  */
+
+
 
 
 #category2{
-    background-color: rgb(68, 159, 212);
+    /* background-color: rgb(68, 159, 212); */
     font-family: 'kurale';
     display: flex;
     color: black;
@@ -72,12 +53,135 @@ background-size: 1300px;
 
 }
 #experience{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+    /* display:flex;
+    justify-content: space-evenly;
+    align-items: center; */
     color: black;
-    font-size: 15px;
-    background-color: rgb(54, 17, 122);
-    padding: 10px;
+    font-size: 17px;
+
+    font-weight: bold;
+    /* background-color: rgb(54, 17, 122); */
+    padding: 20px;
+    /* padding-left: 55px; */
+}
+#experience>div{
+    display: inline-block;
+}
+#e1{
+    width: 30%;
+    padding-left: 120px;
+}
+#e2{
+    width: 20%;
+}#e3{
+    width: 50%;
 }
 
+
+#qualification1{
+    /* display:flex;
+    justify-content: space-evenly;
+
+    align-items: center; */
+    color: black;
+    font-size: 17px;
+
+    font-weight: bold;
+    /* background-color: rgb(54, 17, 122); */
+    padding: 20px;
+    /* padding-left: 55px; */
+}
+
+
+#qualification2{
+    /* display:flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    color: black;
+    font-size: 17px;
+
+    font-weight: bold;
+    /* background-color: rgb(54, 17, 122); */
+    padding: 20px;
+    padding-left: 25px;
+}
+#qualification3{
+    /* display:flex;
+    justify-content: space-evenly;
+
+    align-items: center; */
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    /* background-color: rgb(54, 17, 122); */
+    padding: 20px;
+    /* padding-left: 55px; */
+}
+#qualification1 >div {
+    display: inline-block;
+}
+#qualification2 >div {
+    display: inline-block;
+}
+#qualification3 >div {
+    display: inline-block;
+}
+
+#q1{
+/* margin-left: 120px;
+margin-right:220px; */
+width: 30%;
+padding-left: 120px;
+/* background-color: burlywood; */
+/* margin-right: 30px; */
+}
+
+#q2{
+/* margin-right: 120px; */
+width: 20%;
+/* background-color: rgb(48, 42, 35); */
+
+    
+}
+#q3{
+width: 50%;
+/* background-color: rgb(187, 135, 222); */
+/* padding-top: 3px; */
+/* margin-top: 10px; */
+vertical-align:  middle;
+
+    
+}
+#q4{
+    width: 30%;
+    padding-left: 120px;
+}
+#q5{
+    width: 20%;
+}
+#q6{
+    width: 50%;
+    vertical-align: middle;
+}
+#q7{
+    width: 30%;
+    padding-left: 120px;
+}#q8{
+    width: 20%;
+}#q9{
+    width: 50%;
+    vertical-align: middle;
+}
+
+#caption1{
+    color: blue;
+    
+}
+#caption2{
+    color: blue;
+    
+}
+#caption3{
+    color: blue;
+    
+}

@@ -108,51 +108,48 @@ const Resume = () => {
             <h1 id='title'>RESUME</h1>
             <LinearIndeterminate/>
 
-
             <div id='category1'>
-                <WorkIcon style={{fontSize:'34px',color:'black'}}/>
+                <WorkIcon style={{fontSize:'34px',color:'black',marginRight:"10px"}}/>
 
-                <h1>Working Experience</h1>
+                <h1 style={{color:"black",}}>Working Experience</h1>
 
             </div>
             <div id='experience'>
-            <h3>June 2020 – August 2020</h3>
-            <span>-----</span>
+            <div id="e1">June 2020 – August 2020</div>
+            <div id="e2">-----</div>
             
-            <h4> Worked as a  MERN stack Developer as Intern in Talento Academy</h4>
-                {/* <span></span><h4> Worked as a  MERN stack Developer as Intern in Talento Academy</h4> */}
+            <div id="e3"> Worked as a  MERN stack Developer as Intern in Talento Academy</div>
             </div>
+
             <div id='category2'>
-                <CastForEducationIcon style={{fontSize:'34px',color:'black'}}/>
+                <CastForEducationIcon style={{fontSize:'34px',color:'black',marginRight:"10px"}}/>
 
-                <h2 >Educational Qualifications</h2>
+                <h1 style={{color:"black"}}>Educational Qualifications</h1>
 
             </div>
-            <div id='qualification'>
-            <h3>June 2020 – August 2020</h3>
-            <span>-----</span>
+            <div id='qualification1'>
+          
+            <div id="q1">2018 - 2019</div>
+            <div id="q2">-----</div>
             
-            <h4> Worked as a  MERN stack Developer as Intern in Talento Academy</h4>
-                {/* <span></span><h4> Worked as a  MERN stack Developer as Intern in Talento Academy</h4> */}
-                <div id='experience'>
-            <h3>June 2020 – August 2020</h3>
-            <span>-----</span>
-            
-            <h4> Worked as a  MERN stack Developer as Intern in Talento Academy</h4>
-                {/* <span></span><h4> Worked as a  MERN stack Developer as Intern in Talento Academy</h4> */}
-                {/* P.G DIPLOMA in Renewable Energy Science & Management and Auditing (2018-2019)in Manonmaniam Sundaranar University,Tirunelveli.
-
-B.E. Electrical and Electronics Engineering (2014-2018) with6.91CGPA
-Francis Xavier Engineering College, Tirunelveli
-
-HSC in Kamarajar Municipal Higher Secondary School (2013-2014) with84%
-Pettai, Tirunelveli
-
-SSLC in Kamarajar Municipal Higher Secondary School (2011-2012) with94%
-Pettai, Tirunelveli. */}
-
+            <div id="q3"><h2 id="caption1">Post Graduation</h2>P.G DIPLOMA in Renewable Energy Science & Management and Auditing in Manonmaniam Sundaranar University,Tirunelveli. </div>
             </div>
-            </div>
+            <div id='qualification2'>
+          
+          <div id="q4">2014 - 2018</div>
+          <div id="q5">-----</div>
+          
+          <div id="q6"><h2 id="caption2">Under Graduation</h2> Bachelor of Engineering in  Electrical and Electronics Engineering in
+Francis Xavier Engineering College, Tirunelveli</div>
+          </div>
+          <div id='qualification3'>
+          
+          <div id="q7">2013 - 2014</div>
+          <div id="q8">-----</div>
+          
+          <div id="q9"><h2 id="caption3">Higher School Graduation</h2> Higher School Graduation in Kamarajar Municipal Higher Secondary School 
+Pettai, Tirunelveli</div>
+          </div>
         </div>
     )
 }
